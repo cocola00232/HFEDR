@@ -1,6 +1,6 @@
 ## EXAMPLE : train a ruby model
 
-       step1：check training data file and test file in dir /HFERR/data
+       step1：unzip training data file and test file in dir /HFERR/data
 
        step2：Set parameters in the configuration file /HFERR/src/config.py
 
