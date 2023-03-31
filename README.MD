@@ -26,7 +26,15 @@
 
        NOTE：（1): Due to the large data set, only a part of the data is left here for quick test code.
        
-              (2）: The complete dataset can be downloaded from https://github.com/microsoft/CodeBERT/tree/master/CodeBERT/codesearch.
+              (2）: The complete dataset can be downloaded by following command:
+                     mkdir data data/codesearch
+                     cd data/codesearch
+                     gdown https://drive.google.com/uc?id=1xgSR34XO8xXZg4cZScDYj2eGerBE9iGo  
+                     unzip codesearch_data.zip
+                     rm  codesearch_data.zip
+                     cd ../../codesearch
+                     python process_data.py
+                     cd ..
 
 2： \embedding： During inference, temporarily save feature vectors.
 
